@@ -12,6 +12,8 @@
 		1B5111711C9E54C00025CAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B51116F1C9E54C00025CAA0 /* Main.storyboard */; };
 		1B5111731C9E54C00025CAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5111721C9E54C00025CAA0 /* Assets.xcassets */; };
 		1B5111761C9E54C00025CAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5111741C9E54C00025CAA0 /* LaunchScreen.storyboard */; };
+		1B51117E1C9E58F20025CAA0 /* CityForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B51117D1C9E58F20025CAA0 /* CityForecast.swift */; };
+		1B5111801C9F6A070025CAA0 /* cloud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B51117F1C9F6A070025CAA0 /* cloud.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1B5111721C9E54C00025CAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B5111751C9E54C00025CAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5111771C9E54C00025CAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B51117D1C9E58F20025CAA0 /* CityForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityForecast.swift; sourceTree = "<group>"; };
+		1B51117F1C9F6A070025CAA0 /* cloud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				1B51116B1C9E54C00025CAA0 /* AppDelegate.swift */,
+				1B51117F1C9F6A070025CAA0 /* cloud.jpg */,
 				1B51116D1C9E54C00025CAA0 /* ViewController.swift */,
 				1B51116F1C9E54C00025CAA0 /* Main.storyboard */,
+				1B51117D1C9E58F20025CAA0 /* CityForecast.swift */,
 				1B5111721C9E54C00025CAA0 /* Assets.xcassets */,
 				1B5111741C9E54C00025CAA0 /* LaunchScreen.storyboard */,
 				1B5111771C9E54C00025CAA0 /* Info.plist */,
@@ -125,6 +131,7 @@
 				1B5111761C9E54C00025CAA0 /* LaunchScreen.storyboard in Resources */,
 				1B5111731C9E54C00025CAA0 /* Assets.xcassets in Resources */,
 				1B5111711C9E54C00025CAA0 /* Main.storyboard in Resources */,
+				1B5111801C9F6A070025CAA0 /* cloud.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B51116E1C9E54C00025CAA0 /* ViewController.swift in Sources */,
+				1B51117E1C9E58F20025CAA0 /* CityForecast.swift in Sources */,
 				1B51116C1C9E54C00025CAA0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
